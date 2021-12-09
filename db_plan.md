@@ -9,11 +9,13 @@
 
 - **PK** for recipes (recipe_id)
 - Recipe name that is **unique** (recipe_name)
+- Date of creation (created_at)
 
 ## ingredients
 
 - **PK** for ingredients (ingredient_id)
 - Ingredient name that is **unique** (ingredient_name)
+- Ingredient unit for measurements (ingredient_unit)
 
 ## steps
 
