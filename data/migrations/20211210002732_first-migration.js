@@ -6,6 +6,8 @@ exports.up = async function (knex) {
       table.string("recipe_name", 200)
         .notNullable()
         .unique()
+      table.timestamp('created_at')
+        .defaultTo(knex.fn.now())
     })
     .createTable("ingredients", table => {
       table.increments("ingredient_id")
@@ -13,7 +15,6 @@ exports.up = async function (knex) {
         .notNullable()
         .unique()
       table.string("ingredient_unit", 64)
-
     })
     .createTable("steps", table => {
       table.increments("step_id")

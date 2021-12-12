@@ -23,8 +23,8 @@ const step_ingredients = [
   { step_id: 2, ingredient_id: 8, quantity: 4 },
   { step_id: 3, ingredient_id: 1, quantity: 2 },
   { step_id: 3, ingredient_id: 2, quantity: 0.5 },
-  { step_id: 3, ingredient_id: 3, quantity: 0.4 },
-  { step_id: 3, ingredient_id: 4, quantity: 4 },
+  { step_id: 3, ingredient_id: 7, quantity: 0.4 },
+  { step_id: 3, ingredient_id: 8, quantity: 4 },
   // Chicken Tacos
   { step_id: 4, ingredient_id: 1, quantity: 1 },
   { step_id: 4, ingredient_id: 3, quantity: 4 },
@@ -44,8 +44,8 @@ const step_ingredients = [
 const steps = [
   // Chicken Noodle Soup
   { step_instructions: "Boil chicken and noodles separately", step_number: 1, recipe_id: 1 },
-  { step_instructions: "Roast celery and carrots", step_number: 3, recipe_id: 1 },
-  { step_instructions: "Combine all ingredients into large pot", step_number: 2, recipe_id: 1 },
+  { step_instructions: "Roast celery and carrots", step_number: 2, recipe_id: 1 },
+  { step_instructions: "Combine all ingredients into large pot", step_number: 3, recipe_id: 1 },
   // Chicken Tacos
   { step_instructions: "Cook chicken and heat torillas on pan", step_number: 1, recipe_id: 2 },
   { step_instructions: "Put chicken and cheese into the tortilla", step_number: 2, recipe_id: 2 },
