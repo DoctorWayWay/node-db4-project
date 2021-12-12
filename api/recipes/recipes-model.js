@@ -49,7 +49,14 @@ async function getRecipeById(recipe_id) {
     }
   }
 
-  return uniqueSteps
+  const recipe = {
+    recipe_id: recipeRows[0].recipe_id,
+    recipe_name: recipeRows[0].recipe_name,
+    created_at: recipeRows[0].created_at,
+    steps: uniqueSteps
+  }
+
+  return recipe
 }
 
 module.exports = {
